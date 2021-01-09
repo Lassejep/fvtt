@@ -1,18 +1,23 @@
 {   
-    "name": "my-homebrew",   
-    "title": "My Homebrew",   
-    "description": "My collection of homebrew content.",   
-    "author": "Lasse Jepsen",
-    "version": "1.0.0",
-    "minimumCoreVersion": "0.6.0",
-    "compatibleCoreVersion": "0.7.9",
-    "packs": [
-     {
-       "name": "alchemist-class",
-       "label": "Alchemist Class",
-       "path": "packs/alchemist.db",
-       "entity": "Item",
-       "module": "my-homebrew"
-     }
-   ]
-  }
+  "name": "my-homebrew",   
+  "title": "My Homebrew",   
+  "description": "My collection of homebrew content.",   
+  "author": "Lasse Jepsen",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.6.2",
+  "compatibleCoreVersion": "0.7.9",
+  "url": "https://github.com/Lassejep/fvtt/tree/main/my-homebrew",
+  "download": "https://github.com/Lassejep/fvtt/archive/main.zip",
+  "system": "dnd5e",
+  "manifest": "https://raw.githubusercontent.com/Lassejep/fvtt/main/my-homebrew/module.json",
+  "packs": [
+    {
+      "name": "alchemist-class",
+      "label": "Alchemist Class",
+      "system": "dnd5e",
+      "path": "packs/alchemist.db",
+      "entity": "Item",
+      "module": "my-homebrew"
+    }
+  ]
+}
